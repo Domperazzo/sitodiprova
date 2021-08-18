@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229 255, 0.4));
+    font-size: 1.15 em;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+}
+
+input, textarea{
+    display: block;
+    margin: 10px;
+}
+
+#title {
+    color: rgb(186, 133, 9);
+    font-family: "Sarabun", sans-serif;
+}
+
+.subtitle{
+    color: rgb(200, 148, 30);
+    font-family: "Sarabun", sans-serif;
+}
