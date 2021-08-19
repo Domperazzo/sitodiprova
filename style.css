@@ -1,12 +1,51 @@
-/* Header*/
+/*! Base style */
+body{font-family: 'Inter', sans-serif; font-size: 16px;}
+
+a{text-decoration: none;}
+
+h1,h2,h3,h4,h5, p{color: #000; padding-bottom: 30px;}
+
+.bid-text{font-size: 70px;}
+.med-text{font-size: 40px;}
+.normal-text{font-size: 20px;}
+.small-text{font-size: 14px;}
+
+.intro-text{text-transform: uppercase; font-size: 20px; font-weight: bold;}
+
+.button{padding: 18px 28px; background: #316bff; color: #fff; display: inline-block; border-radius: 4px; }
+
+/* !Header*/
 .header{
-    border: 1px solid red;
-    width 100%;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     padding: 30px;
+    display: flex;
+    background: #000;  
 }
+
+.logo{}
+
+.menu{
+        width: 100%;
+}
+
+.menu li{display: inline-block;}
+.menu li a{color: #fff; padding: 15px; display: block;}
+
+.cta{}
+
+/* ! Hero*/
+
+.hero{
+    background: #000;
+    height: 600px;
+    display: flex; width: 100%; align-items: center;
+}
+
+.hero__content{border: 1px solid red;}
+
 *,
 *:before,
 *:after{
