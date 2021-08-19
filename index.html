@@ -10,23 +10,49 @@
     
     <link rel="stylesheet" href="style.css"> 
     
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">"
 </head>
 <body>
-        <div class="header">
-            <div class="logo">
-                <img src="logo.png" alt="">
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+            <ul class="menu">
+                <li><a href="" class="href">Home</a></li>
+                <li><a href="" class="href">Single</a></li>
+                <li><a href="" class="href">Contact</a></li>
+            </ul>
+            <div class="cta">
+                <a href="" class="button">Contatti</a>
             </div>
-                <ul class="menu">
-                    <li><a href="" class="href">Home</a></li>
-                    <li><a href="" class="href">Single</a></li>
-                    <li><a href="" class="href">Contact</a></li>
-                </ul>
-                <div class="cta">
-                    <a href="" class="button">Contatti</a>
-                </div>
+            <div class="hamburgher">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        
+        </div>
+    
+    <div class="hero">  
+        <div class="hero__content">
+            <p class="intro-text">Intro text</p>
+            <h1 class="big-text">Titolo della pagina</h1>
+            <a href="" class="button">Discover More</a>
+        </div>
+    </div>
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.come/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $( document ).ready(function(){
+        /* Open Panel*/
+        $( ".hamburgher").on('click', function(){
+            $(".menu").toggleClass("menu--open");
+        });
+    });
+</script>
+
 
 </body>
 </html>
